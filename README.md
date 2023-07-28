@@ -1,7 +1,5 @@
 # E-commerce Website
 
-![E-commerce]
-
 ## Overview
 
 The E-commerce Website is a full-fledged online shopping platform built using React and Redux. It provides a seamless shopping experience for users to browse through a wide range of products, view detailed information about each product, add items to the cart, and proceed to checkout for making purchases. The website is designed with a clean and intuitive user interface to enhance the user experience.
