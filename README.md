@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# E-commerce Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![E-commerce]
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+The E-commerce Website is a full-fledged online shopping platform built using React and Redux. It provides a seamless shopping experience for users to browse through a wide range of products, view detailed information about each product, add items to the cart, and proceed to checkout for making purchases. The website is designed with a clean and intuitive user interface to enhance the user experience.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 1. Browse Products
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Users can explore a diverse collection of products listed on the website.
+- The products are organized in a grid layout with responsive columns for optimal viewing on different screen sizes.
 
-### `npm test`
+### 2. View Product Details
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- By clicking on a product, users can view its detailed information, including product name, description, image, and price.
+- The product details page uses animations for a smooth transition effect.
 
-### `npm run build`
+### 3. Sort Products
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Users can sort the products based on price, either from low to high or high to low.
+- Sorting options are available in a dropdown menu for easy selection.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 4. Filter by First Letter
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- A unique feature allows users to filter products by the first letter of their names.
+- The dropdown filter contains all the unique alphabet letters present in the product names.
 
-### `npm run eject`
+### 5. Add to Cart
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Users can add their favorite products to the shopping cart with a single click.
+- The shopping cart icon displays the total number of items added.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 6. Toast Notification
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- A toast notification pops up whenever a product is successfully added to the cart.
+- The toast notification informs users about the name of the product added and disappears after a few seconds.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 7. Proceed to Checkout
 
-## Learn More
+- The website offers a smooth checkout process for users to review their selected items and proceed to payment.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 8. Responsive Design
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- The website is fully responsive and works seamlessly on various devices, including desktops, tablets, and smartphones.
 
-### Code Splitting
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- React: JavaScript library for building user interfaces.
+- Redux: State management library for managing the global application state.
+- React Router: Library for handling navigation and routing in a React application.
+- Chakra UI: UI component library for building responsive and accessible UIs.
+- Framer Motion: Animation library for creating smooth and interactive animations.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
